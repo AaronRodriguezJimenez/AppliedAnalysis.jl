@@ -18,7 +18,7 @@ export greet
 export plot_xy
 
 """ GREETINGS """
-greet() = print("Hello From Revise!")
+greet() = print("Hello WORLD!")
 
 function plot_xy(x::AbstractVector, y::AbstractVector)
     

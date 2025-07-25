@@ -1,18 +1,20 @@
 name = "MyFirstPackage"
-uuid = "52733025-b6fe-4654-8875-041960330fcd"
-authors = ["aaronrodriguez <aarodjim@gmail.com>"]
+uuid = "e7745c82-4fbe-443c-8374-89e667945f3a"
 version = "0.1.0"
 
 [deps]
-Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
+PauliOperators = "be646426-f34c-4536-b1d4-a45a9633e6db"
 Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+StatProfilerHTML = "a8a75453-ed82-57c9-9e16-4cd1196ecbf5"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+TypedPolynomials = "afbbf031-7a57-5f58-a1b9-b774a0fad08d"
+UnitaryPruning = "944e96c2-c6c9-4ba0-b69d-e026960c3e5f"
 
 [compat]
-Distributions = "0.25.120"
-IterTools = "1.10.0"
-Plots = "1.40.13"
-Revise = "3.8.0"
+BenchmarkTools = "1.6.0"
+HDF5 = "0.17.2"
+StatProfilerHTML = "1.6.0"
 Test = "1.11.0"
+TypedPolynomials = "0.4.1"
